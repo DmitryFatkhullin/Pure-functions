@@ -1,5 +1,5 @@
 import 'core-js';
-import { getHealthStatus } from '../health.js';
+import getHealthStatus from '../health.js';
 
 describe('getHealthStatus', () => {
   test('возвращает "healthy" для здоровья больше 50', () => {
